@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Montserrat, Macondo;
+}
+.student {
+  background-color: rgb(219, 146, 51);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.662);
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+
+.student h2 {
+  font-family: Macondo;
+}
+.counter {
+  background-color: #151515;
+  text-align: center;
+  padding: 1em 0;
+  height: 100vh;
+}
+.counter h1 {
+  color: #fff;
+  font-size: 8em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.counter button {
+  background-color: aqua;
+  border: none;
+  margin: 10px;
+  width: fit-content;
+  font-size: 1.5em;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.counter button:hover {
+  box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 200px cyan;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+.color-picker-container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(102, 173, 236);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: larger;
+}
+.color-picker-container p {
+  height: 100px;
+  width: 300px;
+  text-align: center;
+  padding-top: 20px;
+}
+ol {
+  margin-left: 40px;
+}
+.ToDoList {
+  background-color: #151515;
+  height: 100dvh;
+  color: #fe6807;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-top: 2em;
+}
+.ToDoList input {
+  border: none;
+  background-color: hsl(44, 33%, 77%);
+  padding: 5px 10px;
+}
+.ToDoList input:focus {
+  outline: none;
+  background-color: hsl(44, 84%, 44%);
+}
+.ToDoList button {
+  border: none;
+  margin-left: 20px;
+  font-size: 1.3em;
+}
+.ToDoList .removeBtn {
+  background-color: hsl(0, 100%, 40%);
+  color: #000000;
+}
+.ToDoList .moveBtn {
+  background-color: aqua;
+  width: 1em;
+}
+.clock-container {
+  background-image: linear-gradient(
+    135deg,
+    #1a1a2e 0%,
+    #16213e 50%,
+    #0f3460 100%
+  );
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  height: 100vh;
+  width: 100vw;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.clock-container .clock {
+  color: #ffffff;
+  font-size: 5em;
+  height: auto;
+  min-height: 300px;
+  width: 500px;
+  text-align: center;
+  margin: 10px;
+  padding: 2rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  transform: translateY(0);
+  transition: all 0.3s ease;
+}
+
+.clock-container .clock:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 45px 0 rgba(31, 38, 135, 0.5);
+}
+
+.clock-container .clock::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+  pointer-events: none;
+  background: radial-gradient(
+    circle at 50% 0%,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+}
+
+/* Optional: Add text shadow for better readability */
+.clock-container .clock {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* Add a pulsing animation for seconds */
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.clock-container .clock .seconds {
+  animation: pulse 1s infinite;
+  display: inline-block;
+}
