@@ -3,8 +3,8 @@ function DigitalClock() {
   const [time, setTime] = useState(new Date());
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setTime(new Date()), 1000;
-    });
+      setTime(new Date());
+    }, 1000); // Corrected the interval timeN
     return () => {
       clearInterval(intervalId);
     };
