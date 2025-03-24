@@ -7,7 +7,20 @@
 
 ## 📚 About This Project
 
-This repository documents my (Njenga's) React learning journey, showcasing various components and concepts I've mastered along the way. Built with React and Vite, this project serves as both a reference and a demonstration of my growing React skills.
+This repository documents my  React learning journey, showcasing various components and concepts I've mastered along the way. Built with React and Vite, this project serves as both a reference and a demonstration of my growing React skills.
+
+## 📋 Table of Contents
+
+- [✨ Key Features](#-key-features)
+- [🧩 Component Library](#-component-library)
+- [📖 Learning Path](#-learning-path)
+- [🔍 Comprehensive Overview](#-comprehensive-overview)
+- [📓 Additional Resources](#-additional-resources)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [📚 Learning Resources](#-learning-resources)
+- [🚀 Getting Started](#-getting-started)
+- [📈 Future Enhancements](#-future-enhancements)
+- [📝 License](#-license)
 
 ## ✨ Key Features
 
@@ -102,7 +115,6 @@ For a detailed overview of all React concepts covered in this project, check out
 - [Bro Code React Tutorial](https://www.youtube.com/c/BroCodez) - Beginner-friendly React tutorials
 - [Traversy Media](https://www.youtube.com/c/TraversyMedia) - Modern web development tutorials
 - [Net Ninja](https://www.youtube.com/c/TheNetNinja) - In-depth React and modern JavaScript series
-- [JS Mastery Pro](https://www.youtube.com/@javascriptmastery)-Build and deploy react apps tutorials
 
 ### Recommended Books
 
