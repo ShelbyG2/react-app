@@ -1,12 +1,13 @@
-# 🚀 My React Learning Journey
+# 🚀 Njenga's React Learning Journey
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" width="200" height="200">
+  <h3>By <a href="https://github.com/ShelbyG2">ShelbyG2</a></h3>
 </div>
 
 ## 📚 About This Project
 
-This repository documents my React learning journey, showcasing various components and concepts I've mastered along the way. Built with React and Vite, this project serves as both a reference and a demonstration of my growing React skills.
+This repository documents my (Njenga's) React learning journey, showcasing various components and concepts I've mastered along the way. Built with React and Vite, this project serves as both a reference and a demonstration of my growing React skills.
 
 ## ✨ Key Features
 
@@ -89,7 +90,7 @@ For a detailed overview of all React concepts covered in this project, check out
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/ShelbyG2/react-app.git
 
 # Navigate to the project
 cd react-app
@@ -115,5 +116,5 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 <div align="center">
-  <p>Made with ❤️ and React</p>
+  <p>Made with ❤️ and React by Njenga (<a href="https://github.com/ShelbyG2">ShelbyG2</a>)</p>
 </div>
