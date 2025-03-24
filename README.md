@@ -102,6 +102,7 @@ For a detailed overview of all React concepts covered in this project, check out
 - [Bro Code React Tutorial](https://www.youtube.com/c/BroCodez) - Beginner-friendly React tutorials
 - [Traversy Media](https://www.youtube.com/c/TraversyMedia) - Modern web development tutorials
 - [Net Ninja](https://www.youtube.com/c/TheNetNinja) - In-depth React and modern JavaScript series
+- [JS Mastery Pro](https://www.youtube.com/@javascriptmastery)-Build and deploy react apps tutorials
 
 ### Recommended Books
 
