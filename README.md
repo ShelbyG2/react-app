@@ -1,12 +1,13 @@
-# 🚀 My React Learning Journey
+# 🚀 Njenga's React Learning Journey
 
 <div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo" width="200" height="200">
+  <h3>By <a href="https://github.com/ShelbyG2">ShelbyG2</a></h3>
 </div>
 
 ## 📚 About This Project
 
-This repository documents my React learning journey, showcasing various components and concepts I've mastered along the way. Built with React and Vite, this project serves as both a reference and a demonstration of my growing React skills.
+This repository documents my (Njenga's) React learning journey, showcasing various components and concepts I've mastered along the way. Built with React and Vite, this project serves as both a reference and a demonstration of my growing React skills.
 
 ## ✨ Key Features
 
@@ -80,16 +81,47 @@ For a detailed overview of all React concepts covered in this project, check out
 
 ## 🛠️ Tech Stack
 
-- **React** - UI library
-- **Vite** - Build tool
-- **Tailwind CSS** - Styling
-- **Font Awesome** - Icons
+- **React** - UI component library for building user interfaces
+- **Vite** - Next-generation frontend build tool for fast development
+- **JavaScript** - Core programming language
+- **JSX** - JavaScript XML for writing React components
+- **HTML/CSS** - Foundational web technologies
+- **Tailwind CSS** - Utility-first CSS framework for rapid UI development
+- **Font Awesome** - Icon library for consistent and scalable vector icons
+
+## 📚 Learning Resources
+
+### Official Documentation
+
+- [React Official Documentation](https://react.dev/) - Comprehensive guides and API reference
+- [Vite Documentation](https://vitejs.dev/guide/) - Guide for the Vite build tool
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs) - Complete reference for Tailwind CSS
+
+### Video Tutorials
+
+- [Bro Code React Tutorial](https://www.youtube.com/c/BroCodez) - Beginner-friendly React tutorials
+- [Traversy Media](https://www.youtube.com/c/TraversyMedia) - Modern web development tutorials
+- [Net Ninja](https://www.youtube.com/c/TheNetNinja) - In-depth React and modern JavaScript series
+
+### Recommended Books
+
+- "React Up & Running" by Stoyan Stefanov
+- "Learning React" by Alex Banks & Eve Porcello
+- "Road to React" by Robin Wieruch
+- "Fullstack React" by Anthony Accomazzo et al.
+
+> 📚 **Note**: You can find or add PDF copies of these books in the [assets/books](./assets/books/) directory for personal educational use. See the [books README](./assets/books/README.md) for more information.
+
+### Interactive Learning
+
+- [Scrimba React Course](https://scrimba.com/learn/learnreact) - Interactive coding environment
+- [React Tutorial on Codecademy](https://www.codecademy.com/learn/react-101) - Hands-on coding exercises
 
 ## 🚀 Getting Started
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/ShelbyG2/react-app.git
 
 # Navigate to the project
 cd react-app
@@ -115,5 +147,5 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 <div align="center">
-  <p>Made with ❤️ and React</p>
+  <p>Made with ❤️ and React by Njenga (<a href="https://github.com/ShelbyG2">ShelbyG2</a>)</p>
 </div>
