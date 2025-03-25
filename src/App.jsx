@@ -1,6 +1,7 @@
 // import Student from "./Student.jsx";
 // import React, { useState } from "react";
-import CarList from "./ArrayOfObjectsUpdation.jsx";
+//import CarList from "./ArrayOfObjectsUpdation.jsx";
+import StopWatch from "./StopWatch.jsx";
 // import ArrayUpdation from "./ArrayUpdation";
 
 // import Counter from "./counter.jsx";
@@ -13,7 +14,7 @@ import CarList from "./ArrayOfObjectsUpdation.jsx";
 function App() {
   return (
     <>
-      <CarList />
+      <StopWatch />
     </>
   );
 }

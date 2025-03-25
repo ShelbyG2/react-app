@@ -7,7 +7,7 @@
 
 ## 📚 About This Project
 
-This repository documents my  React learning journey, showcasing various components and concepts I've mastered along the way. Built with React and Vite, this project serves as both a reference and a demonstration of my growing React skills.
+This repository documents my React learning journey, showcasing various components and concepts I've mastered along the way. Built with React and Vite, this project serves as both a reference and a demonstration of my growing React skills.
 
 ## 📋 Table of Contents
 
@@ -47,6 +47,7 @@ Each component in this project demonstrates specific React concepts:
 | ✅ **ToDo List**        | Complete CRUD, complex state management   | [Docs](./docs/todo-list-component.md)        | [Code](./src/ToDoListApp.jsx)            |
 | 🕒 **Digital Clock**    | Real-time updates, intervals, Date object | [Docs](./docs/digital-clock-component.md)    | [Code](./src/DigitalClock.jsx)           |
 | 📊 **Array of Objects** | Complex data structures, form handling    | [Docs](./docs/array-of-objects-component.md) | [Code](./src/ArrayOfObjectsUpdation.jsx) |
+| ⏱️ **Stopwatch**        | Precise timing, state coordination        | [Docs](./docs/stopwatch-component.md)        | [Code](./src/Stopwatch.jsx)              |
 
 ## 📖 Learning Path
 
